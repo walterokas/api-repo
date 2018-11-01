@@ -14,5 +14,5 @@ before_script:
   - easy_install distribute
   - pip install -r requirements.txt
 
-scripts: 
+script: 
   - py.test test_ api.py
