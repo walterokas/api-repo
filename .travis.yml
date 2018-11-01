@@ -14,4 +14,4 @@ before_script:
   - pip install -r requirements.txt
 
 script: 
-  - py.test api\test_api.py
+  - py.test api/test_api.py
