@@ -1,0 +1,12 @@
+language: python
+python:
+  - "3.7"
+  - "3.5"
+  - "2.7"
+
+cache: pip
+install: 
+  - pip install -r requirements.txt
+
+scripts: 
+  - py.test test_ api.py
