@@ -4,6 +4,10 @@ python:
   - "3.5"
   - "2.7"
 
+env:
+  - FLASK=1.0.2
+  - FLASK=0.10.1
+  
 cache: pip
 
 before_script: 
