@@ -1,6 +1,5 @@
 language: python
 python:
-  - "3.7"
   - "3.5"
   - "2.7"
 
@@ -15,4 +14,4 @@ before_script:
   - pip install -r requirements.txt
 
 script: 
-  - py.test test_ api.py
+  - py.test test_api.py
