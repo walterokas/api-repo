@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-app = Flask('__name__') #define app using flask
+app = Flask(__name__) #define app using flask
 
 #Products List
 products = [{'name': 'Rice'}, {'name': 'Maize'}, {'name': 'Coffee'}, {'name': 'Sugar'}, {'name': 'Barley'}]
